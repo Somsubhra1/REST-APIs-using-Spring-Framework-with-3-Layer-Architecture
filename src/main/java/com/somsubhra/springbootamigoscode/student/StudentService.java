@@ -22,6 +22,10 @@ public class StudentService {
         return studentRepository.findAll();
     }
 
+    public Optional<Student> getStudent(long studentId) {
+        return studentRepository.findById(studentId);
+    }
+
     public void addNewStudent(Student student) {
 //        System.out.println(student);
         Optional<Student> studentOptional = studentRepository.findStudentByEmail(student.getEmail());
@@ -69,4 +73,6 @@ public class StudentService {
             student.setEmail(email);
         }
     }
+
+
 }
