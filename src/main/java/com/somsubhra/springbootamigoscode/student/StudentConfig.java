@@ -8,6 +8,7 @@ import java.time.LocalDate;
 import java.time.Month;
 import java.util.List;
 
+//This file will be used to enter data to db
 @Configuration
 public class StudentConfig {
     @Bean
