@@ -2,7 +2,7 @@
 
 ## Description
 
-REST APIs using Spring Framework using3 Layer Architecture.
+REST APIs using Spring Framework using 3 Layer Architecture.
 
 
 ## Technologies/Dependencies used
